@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Login de Acesso ao Wi-Fi</h2>
+        <form id="loginForm" action="login.html">
+            <div class="usuario">
+                <label class="label" for="usuario"> Usúario:</label>
+                <input type="text" id="usuario" name="usuario" required>
+            </div>
+            <div class="senha">
+                <label class="label" for="senha"> Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+            <div class="button-group">
+                <button type="submit" class="button">Acessar</button>
+                <!-- caso queira usar a outra formula de validar com o exemplo abaixo do origial, use esse botão -->
+                <!-- <button type="" onclick="validar()">Acessar</button> -->
+            </div>
+        </form>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>
